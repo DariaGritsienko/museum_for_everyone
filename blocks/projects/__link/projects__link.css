@@ -1,0 +1,17 @@
+.projects__link{
+  text-decoration: none;
+  padding-left: 15px;
+  margin: 0;
+  color: #000;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.005em;
+}
+
+@media screen and (max-width: 320px) {
+  .projects__link{
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

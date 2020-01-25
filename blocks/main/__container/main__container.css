@@ -1,0 +1,16 @@
+.main__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .header__container{
+    background-image: url(./../../images/menu.png);
+    width: 40px;
+    background-repeat: no-repeat;
+    height: 18px;
+    margin-right: 12px;
+  }
+}

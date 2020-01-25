@@ -1,0 +1,22 @@
+.footer__museum{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #000000;
+  }
+
+  @media screen and (max-width: 975px) {
+    .footer__museum{
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .footer__museum{
+      order: 3;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }

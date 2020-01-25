@@ -1,0 +1,12 @@
+.projects__line{
+  border: 2px solid #FBAC86;
+  width: 43px;
+  height: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .projects__line{
+    width: 30px;
+    border: 1.5px solid #fbac86;
+  }
+}

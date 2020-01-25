@@ -1,0 +1,7 @@
+.projects__element{
+  margin: 0;
+}
+
+.projects__element:hover{
+  color: #fa8e5a;
+}

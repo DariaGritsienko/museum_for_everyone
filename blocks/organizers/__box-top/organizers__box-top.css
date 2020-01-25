@@ -1,0 +1,12 @@
+.organizers__box-top{
+  width: 100%;
+  max-width: 487px;
+  margin-bottom: 128px;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .organizers__box-top{
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,13 @@
+.button {
+  background: #FA8E5A;
+  border-radius: 62px;
+  text-align: center;
+  border: none;
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  color: #001185;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  transition: background 0.4s ease;
+}

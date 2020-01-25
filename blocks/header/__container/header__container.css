@@ -1,0 +1,23 @@
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 680px;
+  align-items: center;
+}
+
+@media screen and (max-width: 820px) {
+  .header__menu{
+    background-image: url(../../../images/menu.png);
+    width: 40px;
+    background-repeat: no-repeat;
+    height: 18px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 820px) {
+  .header__container{
+    justify-content: flex-end;
+  }
+}

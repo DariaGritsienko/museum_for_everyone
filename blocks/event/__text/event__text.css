@@ -1,0 +1,22 @@
+.event__text{
+  margin-top: 0;
+  margin-bottom: 47px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.event__text:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .event__text{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+  }
+}

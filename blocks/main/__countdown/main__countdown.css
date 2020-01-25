@@ -1,0 +1,18 @@
+.main__countdown{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto 35px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.005em;
+  color: #A95099;
+}
+
+@media screen and (max-width: 630px) {
+  .main__countdown{
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

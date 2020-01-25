@@ -1,0 +1,22 @@
+@import url(./__email/footer__email.css);
+@import url(./__container/footer__container.css);
+@import url(./__icon/footer__icon.css);
+@import url(./__elements/footer__elements.css);
+@import url(./__museum/footer__museum.css);
+
+.footer{
+  background-color: #F9E7D9;
+  padding-bottom: 57px;
+  padding-top: 62px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+@media screen and (max-width: 975px) {
+  .footer{
+    padding-top: 35px;
+    padding-bottom: 38px;
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+}

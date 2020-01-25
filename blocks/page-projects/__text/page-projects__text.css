@@ -1,0 +1,22 @@
+.page-projects__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #000000;
+  margin-top: 0;
+}
+
+.page-projects__text_margin{
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 320px) {
+  .page-projects__text{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .page-projects__text_margin{
+    margin-bottom: 29px;
+  }
+}

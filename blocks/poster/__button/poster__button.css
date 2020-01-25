@@ -1,0 +1,19 @@
+.poster__button{
+  width: 422px;
+  height: 87px;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.poster__button:hover{
+  background: #f2793f;
+}
+
+@media screen and (max-width: 500px) {
+  .poster__button{
+    width: 234px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

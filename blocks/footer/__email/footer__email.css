@@ -1,0 +1,25 @@
+.footer__email{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #000000;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 975px) {
+  .footer__email{
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__email{
+    order: 1;
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

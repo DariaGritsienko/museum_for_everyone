@@ -1,0 +1,13 @@
+.header__link{
+  font-family: Pribambas;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.header__link:hover{
+  opacity: 0.7;
+}

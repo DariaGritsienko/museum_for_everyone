@@ -1,0 +1,22 @@
+.page-projects__content-right{
+  display: flex;
+  flex-direction: column;
+  padding-right: 116px;
+  max-width: 614px;
+  width: 100%;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1313px) {
+  .page-projects__content-right{
+    padding-right: 0;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-projects__content-right{
+    max-width: 270px;
+    width: 100%;
+  }
+}

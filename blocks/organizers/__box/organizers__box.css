@@ -1,0 +1,23 @@
+.organizers__box{
+  width: 100%;
+  max-width: 527px;
+  display: flex;
+  margin-right: 152px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.organizers__box:last-child{
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .organizers__box{
+    margin-right: 0;
+    margin-bottom: 77px;
+    text-align: center;
+  }
+  .organizers__box:last-child{
+    margin: 0;
+  }
+}

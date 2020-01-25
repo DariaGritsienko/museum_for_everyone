@@ -1,0 +1,20 @@
+.projects__content{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 1257px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1092px) {
+  .projects__content{
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__content{
+    max-width: 262px;
+    margin: 0 auto;
+  }
+}

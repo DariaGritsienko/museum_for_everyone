@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Museum for everyone</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+  <div class="page">
+
+      <header class="header">
+        <div class="header__nav">
+          <img src="./images/logo.png" alt="museum logo" class="logo header__logo">
+          <div class="header__container">
+            <a href="#" class="header__menu"></a>
+            <div class="header__links">
+              <a href="#event" data-easing="easeOutCubic" class="header__link">Акция</a>
+              <a href="#poster" data-easing="easeOutCubic" class="header__link">афиша</a>
+              <a href="#organizers" data-easing="easeOutCubic" class="header__link">Организаторы</a>
+              <a href="#projects" data-easing="easeOutCubic" class="header__link">Спецпроекты</a>
+              <a href="#organizers" data-easing="easeOutCubic" class="header__link">Партнеры</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="header-menu">
+        <div class="header-menu__links">
+          <a href="#event" data-easing="easeOutCubic" class="header__link">Акция</a>
+          <a href="#poster" data-easing="easeOutCubic" class="header__link">афиша</a>
+          <a href="#organizers" data-easing="easeOutCubic" class="header__link">Организаторы</a>
+          <a href="#projects" data-easing="easeOutCubic" class="header__link">Спецпроекты</a>
+          <a href="#organizers" data-easing="easeOutCubic" class="header__link">Партнеры</a>
+        </div>
+      </section>
+      <section class='main'>
+        <div class="main__container">
+          <h1 class="main__title">всероссийская инклюзивная акция</h1>
+          <img src="./images/title.png" alt="museum for everyone" class="main__image">
+          <p class="main__text">Выставки, экскурсии, концерты, театральные квесты<br>
+  и мастер-классы для детей и взрослых, с инвалидностью и без</p>
+          <p class="main__date">18-20 апреля 2020</p>
+          <h2 class="main__countdown">До начала акции осталось: <span class="main__span">117 дней</span></h2>
+          <input type="button" value="афиша мероприятий" name="button" onClick='location.href="https://culture.ru"' class="button main__button">
+        </div>
+      </section>
+
+      <section class='event' id="event">
+        <div class="event__container">
+          <p class="event__text">Акция «Музей для всех”  пройдет в России  в третий раз. В 2017 году акция объединила<br>
+            более 250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев<br>
+            и 16700 человек со всей страны. Мы надеемся, что количество наших единомышленников будет расти!</p>
+          <p class="event__text">В рамках акции музеи приглашают посетителей на выставки, экскурсии, концерты, театральные<br>
+            квесты и мастер-классы, адаптированные или созданные с участием людей с инвалидностью.</p>
+          <p class="event__text">Задача акции — привлечь внимание широкой общественности к значимости равноправного<br>
+            участия всех людей в культурной жизни. В этот день музеи приглашают всех тех, кто поддерживает<br> развитие инклюзии в нашей стране.</p>
+        </div>
+      </section>
+
+      <section class='projects' id="projects">
+        <div class="projects__container">
+          <h2 class="projects__title">ПРОекты</h2>
+          <div class="projects__content">
+            <div class="projects__project">
+              <img src="./images/photo1.png" alt="" class="projects__image">
+              <div class="projects__box">
+                <h3 class="projects__text">“Неудобные вопросы об инвалидности”</h3>
+                <div class="projects__container-link">
+                  <div class="projects__line"></div>
+                  <a href="./projects.html#page-projects__container-questions" data-easing="easeOutCubic" class="projects__link">
+                    <p class="projects__element">Узнать больше</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="projects__project">
+              <img src="./images/photo2.png" alt="" class="projects__image">
+              <div class="projects__box">
+                <h3 class="projects__text">“Как я понял, что у меня инвалидность”</h3>
+                <div class="projects__container-link">
+                  <div class="projects__line"></div>
+                  <a href="./projects.html#page-projects__container-inv" data-easing="easeOutCubic" class="projects__link">
+                    <p class="projects__element">Узнать больше</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="projects__project">
+              <img src="./images/photo3.png" alt="" class="projects__image">
+              <div class="projects__box">
+                <h3 class="projects__text projects__text_margin">“Как помогает ваше домашнее животное в жизни”</h3>
+                <div class="projects__container-link">
+                  <div class="projects__line"></div>
+                  <a href="./projects.html#page-projects__container-animal" data-easing="easeOutCubic" class="projects__link">
+                    <p class="projects__element">Узнать больше</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class='poster' id="poster">
+        <input type="button" value="афиша мероприятий" name="button" onClick='location.href="https://culture.ru"' class="button poster__button">
+      </section>
+
+      <section class='organizers' id="organizers">
+        <div class="organizers__container">
+          <div class="organizers__box-top">
+            <h2 class="organizers__title">Организаторы</h2>
+            <div class="organizers__links">
+              <img src="./images/logo.png" alt="Инклюзивный музей" class="organizers__image">
+              <img src="./images/icom.png" alt="ИКОМ России" class="organizers__image">
+              <img src="./images/logo_for_movie.png" alt="Колесо Обозрения" class="organizers__image">
+            </div>
+          </div>
+          <div class="organizers__box-bottom">
+            <div class="organizers__box">
+              <h2 class="organizers__title">при поддержке</h2>
+              <div class="organizers__links">
+                <img src="./images/vklad_rgb.png" alt="БФ Сбербанка" class="organizers__image-help">
+                <img src="./images/vpf.png" alt="БФ Владимира Потанина" class="organizers__image-help">
+                <img src="./images/logo-dark.png" alt="Культура.рф" class="organizers__image-help">
+              </div>
+            </div>
+            <div class="organizers__box">
+              <h2 class="organizers__title">Партнеры</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class='footer'>
+        <div class='footer__elements'>
+          <a href="mailto:inmuseumrus@gmail.com" class="footer__email">inmuseumrus@gmail.com</a>
+          <p class="footer__museum">2020 © Инклюзивный музей</p>
+          <div class="footer__container">
+            <a href="#" class="footer__icon"></a>
+            <a href="#" class="footer__icon"></a>
+            <a href="#" class="footer__icon"></a>
+            <a href="#" class="footer__icon"></a>
+          </div>
+        </div>
+      </footer>
+
+  </div>
+  <script src="./scripts/smooth-scroll.polyfills.js"></script>
+  <script src="./scripts/menu.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]:not([data-easing])');
+
+  			if (document.querySelector('[data-easing]')) {
+  				var easeOutCubic = new SmoothScroll('[data-easing="easeOutCubic"]', {easing: 'easeOutCubic'});
+  			}
+  </script>
+</body>
+
+</html>

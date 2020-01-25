@@ -1,0 +1,15 @@
+@import url(./__button/main__button.css);
+@import url(./__container/main__container.css);
+@import url(./__countdown/main__countdown.css);
+@import url(./__date/main__date.css);
+@import url(./__image/main__image.css);
+@import url(./__title/main__title.css);
+@import url(./__span/main__span.css);
+@import url(./__text/main__text.css);
+
+.main{
+  width: 100%;
+  background-color: #F9E7D9;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}

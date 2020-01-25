@@ -1,0 +1,24 @@
+.footer__icon{
+  width: 40px;
+  height: 40px;
+}
+
+.footer__icon:nth-child(1){
+  background-image: url(../../../images/youtube.png);
+}
+
+.footer__icon:nth-child(2){
+  background-image: url(../../../images/vk.png);
+}
+
+.footer__icon:nth-child(3){
+  background-image: url(../../../images/facebook.png);
+}
+
+.footer__icon:nth-child(4){
+  background-image: url(../../../images/instagram.png);
+}
+
+.footer__icon:hover{
+  opacity: 0.6;
+}

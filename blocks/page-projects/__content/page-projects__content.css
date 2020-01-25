@@ -1,0 +1,21 @@
+.page-projects__content{
+  display: flex;
+  flex-direction: column;
+  padding-left: 116px;
+  max-width: 605px;
+  width: 100%;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1313px) {
+  .page-projects__content{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-projects__content{
+    max-width: 270px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.page-projects__box{
+  display: flex;
+  padding-bottom: 0;
+  padding-left: 65px;
+  padding-right: 66px;
+}
+
+@media screen and (max-width: 1313px) {
+  .page-projects__box{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-projects__box{
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}

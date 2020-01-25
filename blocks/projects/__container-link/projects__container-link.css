@@ -1,0 +1,7 @@
+.projects__container-link{
+  width: 100%;
+  max-width: 175px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}

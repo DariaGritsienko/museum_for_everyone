@@ -1,0 +1,30 @@
+@import url(./__box/organizers__box.css);
+@import url(./__container/organizers__container.css);
+@import url(./__links/organizers__links.css);
+@import url(./__box-bottom/organizers__box-bottom.css);
+@import url(./__box-top/organizers__box-top.css);
+@import url(./__title/organizers__title.css);
+@import url(./__image/organizers__image.css);
+
+.organizers{
+  padding-top: 75px;
+  padding-bottom: 82px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+@media screen and (max-width: 1024px) {
+  .organizers{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .organizers{
+    padding-top: 25px;
+    padding-bottom: 190px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

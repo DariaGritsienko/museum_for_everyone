@@ -1,0 +1,22 @@
+@import url(./__box/projects__box.css);
+@import url(./__container/projects__container.css);
+@import url(./__container-link/projects__container-link.css);
+@import url(./__content/projects__content.css);
+@import url(./__image/projects__image.css);
+@import url(./__link/projects__link.css);
+@import url(./__line/projects__line.css);
+@import url(./__project/projects__project.css);
+@import url(./__element/projects__element.css);
+@import url(./__text/projects__text.css);
+@import url(./__title/projects__title.css);
+
+.projects{
+  width: 100%;
+  padding-bottom: 97px;
+}
+
+@media screen and (max-width: 320px) {
+  .projects{
+    padding-bottom: 33px;
+  }
+}

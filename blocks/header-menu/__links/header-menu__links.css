@@ -1,0 +1,8 @@
+.header-menu__links{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 70vh;
+  background: #F9E7D9;
+}

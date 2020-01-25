@@ -1,0 +1,24 @@
+
+@font-face {
+	font-family: 'Fira Sans', sans-serif;
+	src: url('./fonts/FiraSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans', sans-serif;
+	src: url('./fonts/FiraSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pribambas';
+	src: url('./fonts/Pribambas-Regular.eot');
+	src:url('./fonts/Pribambas-Regular.woff') format('woff'),
+		url('./fonts/Pribambas-Regular.woff2') format('woff2'),
+		url('./fonts/Pribambas-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

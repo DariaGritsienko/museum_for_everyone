@@ -1,0 +1,17 @@
+.main__date{
+  text-transform: uppercase;
+  font-family: Pribambas;
+  margin: 0 auto 30px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.005em;
+  color: #001185;
+}
+
+@media screen and (max-width: 630px) {
+  .main__date{
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

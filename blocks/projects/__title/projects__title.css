@@ -1,0 +1,26 @@
+.projects__title{
+  width: 100%;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Pribambas;
+  background-color: #F9E7D9;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  margin-top: 0;
+  margin-bottom: 63px;
+}
+
+@media screen and (max-width: 320px) {
+  .projects__title{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+}

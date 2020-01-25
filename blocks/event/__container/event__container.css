@@ -1,0 +1,12 @@
+.event__container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+  .event__container{
+    max-width: 268px;
+  }
+}

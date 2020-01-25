@@ -1,0 +1,23 @@
+@import url(./__button/page-projects__button.css);
+@import url(./__container/page-projects__container.css);
+@import url(./__content/page-projects__content.css);
+@import url(./__content-right/page-projects__content-right.css);
+@import url(./__photo/page-projects__photo.css);
+@import url(./__image/page-projects__image.css);
+@import url(./__title/page-projects__title.css);
+@import url(./__subtitle/page-projects__subtitle.css);
+@import url(./__text/page-projects__text.css);
+@import url(./__box/page-projects__box.css);
+@import url(./__box-right/page-projects__box-right.css);
+@import url(./__photo-right/page-projects__photo-right.css);
+
+.page-projects{
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+@media screen and (max-width: 320px) {
+  .page-projects{
+    padding-top: 29px;
+  }
+}

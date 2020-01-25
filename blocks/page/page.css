@@ -1,0 +1,14 @@
+.page {
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 320px) {
+  br{
+    display: none;
+  }
+}
